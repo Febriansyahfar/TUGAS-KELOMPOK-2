@@ -1,0 +1,51 @@
+
+/* style special */
+#Special {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#Special h1 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: 2em;
+}
+
+
+
+/* style trend */
+#trending h1 {
+    font-weight: bold;
+    font-size: 20pt;
+}
+#trending {
+    
+    padding: 8px 32px;
+    position: relative;
+    top: 100px;
+    height: 100vh;
+}
+    
+#trending span {
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+
+.card-trend {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+
+}
+.card-trend .wrap-img-trend {
+    width: 40%;
+    height: 60px;
+}
+
