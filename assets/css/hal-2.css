@@ -6,12 +6,18 @@
     height: 50vh;
 }
 
-#Special h1 {
+.container h1 {
     font-weight: bold;
     font-size: 20pt;
-    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2px;
 }
 
+.carousel-item {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 /* style trend */
