@@ -46,11 +46,18 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 .masuk {
   position: relative;
   border: solid black;
   border-radius: 20px;
   padding: 0.2rem 1rem !important;
+  
 }
 
 .masuk:hover {
@@ -63,6 +70,7 @@
   border: solid black;
   border-radius: 20px;
   padding: 0.2rem 1rem !important;
+  
 }
 
 .daftar:hover {
